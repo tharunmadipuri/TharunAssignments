@@ -1,0 +1,64 @@
+/* Style for the form container */
+h1{
+    color: blue;
+    font-style: italic;
+    text-align: center;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for labels */
+  label {
+    display: inline;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for text inputs and text area */
+  input[type="text"],
+  input[type="email"],
+  input[type="pno"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for select dropdowns */
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for submit and reset buttons */
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #0056b3;
+  }
+  

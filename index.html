@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>course registration - AchieversIT</title>
+	<link rel="stylesheet"  href="style.css">
 </head>
 <body>
 	<h1>Registration form for AchieversIT</h1>
@@ -15,10 +16,14 @@
 	<label for="email">Email</label>
 	<input type="email" name="email" id="email"/><br/>
 	<label for="pno">Phone</label>
-	<input type="pno" name="pno" id="pno" /><br/>
+	<section>
+		<input type="number" value="+91">
+	<span>
+	<input type="pno" name="pno" id="pno" /></span>
+	</section>
 	<label>Gender</label><br/>
 	<input type="radio" name="gender" id="male" value="male" />
-	<label for="male">Male</label><br/>
+	<label for="male">Male</label>
 	<input type="radio" name="gender" id="female" value="female" />
 	<label for="female">Female</label><br/>
 	<label>Educational Qualification</label><br/>

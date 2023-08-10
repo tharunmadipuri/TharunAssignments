@@ -1,7 +1,14 @@
 .main{
-    border: 3px solid orange;
-    width: 100%;
+    border: 2px solid black;
+    width: 1073px;
     height: 400px;
+}
+.p{
+    position: sticky;
+    top: 0%;
+    left: 30%;
+    padding: 10px;
+    background-color: blue;
 }
 .fixed,.relative,.absolute{
     display: flex;
@@ -10,18 +17,26 @@ align-items: center;
     width: 350px; ;
     height: 100px; ;
     border: 1px solid black;
-    position: relative;
+    font-weight: bold;
 }
 .fixed{
+    position: relative;
+    background-color: aqua;
     top: 11px;
-    left: 11px;
+    left: 11px;%;
 }
 .relative {
+    position: relative;
+    background-color: chartreuse;
     top:10px;
     left: 364px;
   }
   
   .absolute {
-top: 10px;
-left: 717px; 
+    position: absolute;
+    background-color: chocolate;
+top: 267px;
+left: 726px;
+   
+    
   }

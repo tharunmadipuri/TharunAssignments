@@ -1,0 +1,90 @@
+.h{
+    font-weight: bold;
+    font-size: large;
+}
+.orange{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    background-color: #ff9933 ;
+    top: 50px;
+    left: 601px;
+}
+.white{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 100px;
+    left:0px;  
+}
+.chakra{
+    border: 5px solid navy;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border-radius: 50%;
+    top: 6px;
+    left: 151px;  
+}
+.line{
+    width: 2px;
+    height: 71px;
+    background-color: navy;
+    position: absolute;
+    left: 33px;
+}
+
+.green{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    background-color: #056608;
+    top: 200px;
+    left:0px;
+}
+
+.line:nth-child(1){
+    transform: rotate(13deg);
+}
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(145deg);
+}
+.line:nth-child(11){
+    transform: rotate(160deg);
+}
+.line:nth-child(12){
+    transform: rotate(175deg);
+}
+.stick{
+    width: 0px;
+    height: 600px;
+    border: 5px solid black;
+    position: absolute;
+    top: -111px;
+    right: 226px;
+}

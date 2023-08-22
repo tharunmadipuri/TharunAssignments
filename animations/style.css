@@ -1,0 +1,49 @@
+.container{
+    width: 1500px;
+    height: 720px;
+    border: 5px solid black;
+    position: relative;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(8, 190, 108);
+    background-color: rgb(21, 239, 239);
+    border-radius: 20%;
+    position: absolute;
+    animation-name: moveBox;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes moveBox {
+    0% {
+       top: 10px;
+       left: 10px;
+    }
+    25% {
+       left: 10px;
+       top: 550px;
+       background-color: #FF9933;
+    }
+    50% {
+       left: 1320px;
+       top: 550px;
+       background-color: whitesmoke;
+    }
+    75% {
+       left: 1320px;
+       top: 10px;
+       background-color: #90EE90;
+    }
+    100% {
+      top: 10px;
+      left: 10px;  
+    }
+}
+div{
+   text-align: center;
+   padding-left: 10px;
+   padding-top: 60px;
+}
